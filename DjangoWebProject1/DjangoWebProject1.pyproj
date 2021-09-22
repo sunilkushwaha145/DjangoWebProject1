@@ -46,6 +46,8 @@
   <ItemGroup>
     <Content Include="bestdjango\templates\bestdjango\Home.html" />
     <Content Include="bestdjango\templates\bestdjango\index.html" />
+    <Content Include="bestdjango\templates\bestdjango\MasterLayout.html" />
+    <Content Include="bestdjango\templates\bestdjango\MyItems.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>

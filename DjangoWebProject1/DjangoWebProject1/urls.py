@@ -26,4 +26,6 @@ urlpatterns = [
     #path('admin/', admin.site.urls)
     url(r'^$', bestdjango.views.index, name='index'),
     url(r'^home$', bestdjango.views.Home, name='home'),
+    url(r'^mylist$', bestdjango.views.MyItems,name='MyItems'),
+
 ]

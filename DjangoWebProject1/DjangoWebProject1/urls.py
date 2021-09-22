@@ -25,5 +25,5 @@ urlpatterns = [
     # Uncomment the next line to enable the admin:
     #path('admin/', admin.site.urls)
     url(r'^$', bestdjango.views.index, name='index'),
-    url(r'^home$', bestdjango.views.index, name='home'),
+    url(r'^home$', bestdjango.views.Home, name='home'),
 ]

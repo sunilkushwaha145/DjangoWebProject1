@@ -27,3 +27,11 @@ def MyItems(request):
             'content' : " on ",
         }
     )
+def firstform(request):
+      return render(request, 'bestdjango/firstform.html')
+
+def Postfirstform(request):
+      print(request.POST)
+      name = request.POST.get("txtname")
+      mob = request.POST.get("txtmob")
+      return render(request, 'bestdjango/firstform.html',{'Name':name,'Mob':mob,})

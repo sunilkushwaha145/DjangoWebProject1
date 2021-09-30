@@ -1,0 +1,22 @@
+{% extends 'bestdjango/MasterLayout.html' %}
+{% block content %}
+<div class="col-sm-12">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+        <h3 class="center">FILL TEH FIELDS</h3>
+        <form action="Postfirstform" method="post" enctype="multipart/form-data">
+              {% csrf_token %}
+            <label>Name :</label>
+            <input type="text" class="form-control" name="txtname"placeholder="Enter your name " />
+            <label>Mobile :</label>
+            <input type="text" class="form-control" name="txtmob" placeholder="Enter your name " />
+            <label>File :</label>
+            <input type="file" class="form-control" name="txtimg" placeholder="Enter your name " />
+            <input type="submit" value="Submit" class="btn btn-success" />
+        </form>
+    </div>
+    <h3>{{ Name }}</h3>
+     <h3>{{ Mob }}</h3>
+    <div class="col-sm-2"></div>    
+</div>
+{% endblock %}

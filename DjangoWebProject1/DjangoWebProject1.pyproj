@@ -44,6 +44,7 @@
     <Compile Include="DjangoWebProject1\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bestdjango\templates\bestdjango\firstform.html" />
     <Content Include="bestdjango\templates\bestdjango\Home.html" />
     <Content Include="bestdjango\templates\bestdjango\index.html" />
     <Content Include="bestdjango\templates\bestdjango\MasterLayout.html" />
@@ -55,6 +56,7 @@
     <Folder Include="bestdjango\migrations\" />
     <Folder Include="bestdjango\templates\" />
     <Folder Include="bestdjango\templates\bestdjango\" />
+    <Folder Include="UploadImage\" />
     <Folder Include="DjangoWebProject1\" />
   </ItemGroup>
   <ItemGroup>

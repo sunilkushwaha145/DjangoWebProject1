@@ -27,5 +27,6 @@ urlpatterns = [
     url(r'^$', bestdjango.views.index, name='index'),
     url(r'^home$', bestdjango.views.Home, name='home'),
     url(r'^mylist$', bestdjango.views.MyItems,name='MyItems'),
-
+    url(r'^firstform$', bestdjango.views.firstform,name='Firstform'),
+    url(r'^Postfirstform$', bestdjango.views.Postfirstform,name='Postfirstform'),
 ]

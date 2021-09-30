@@ -71,7 +71,8 @@ TEMPLATES = [
         },
     },
 ]
-
+MEDIA_ROOT = os.path.join(BASE_DIR, 'UploadImage')
+MEDIA_URL = 'UploadImage/'
 WSGI_APPLICATION = 'DjangoWebProject1.wsgi.application'
 
 # Database
